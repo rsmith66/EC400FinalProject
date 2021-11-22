@@ -1,9 +1,9 @@
 # EC400FinalProject
 
 ## Team Members
-Khan Waleed
-Ohhata Ryuichi
-Cho Wooyoung
-Wasson James
-De Lazzari Davide
-Desiata Brandon
+- Katsaros Harry
+- Galindo Henry
+- Smith Ryan
+- Alcantara Lesly
+- Mikulskis John
+- Achkar Jean Marc
