@@ -1,0 +1,10 @@
+OutputFolder = 'C:\outputfolder';  
+dinfo = dir('*.png');
+for K = 1 : length(dinfo)
+  thisimage = dinfo(K).name;
+  Img   = imread(thisimage);
+  Y     = imshow(Grays);
+  Gray  = rgb2gray(Img);
+  GrayS = imresize(Gray, [112, 92], 'bilinear');
+  imwrite(GrayS, fullfile(OutputFolder, thisimage));  
+end
