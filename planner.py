@@ -19,7 +19,7 @@ class Planner(torch.nn.Module):
         super().__init__()
 
         layers = [] # 3x128x96
-        layers.append(torch.nn.Conv2d(1,16,5,1,2)) # 16x128x96
+        layers.append(torch.nn.Conv2d(3,16,5,1,2)) # 16x128x96
         layers.append(torch.nn.ReLU())
         layers.append(torch.nn.MaxPool2d(2,2))  # 16x64x48
         layers.append(torch.nn.Conv2d(16,32,5,1,2)) # 16x64x48
